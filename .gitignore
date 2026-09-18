@@ -1,1 +1,16 @@
 .vscode/
+
+# Python virtual environments and installed packages
+myenv/
+.venv/
+venv/
+ENV/
+env/
+
+# Python generated files and package tooling caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.pip-cache/
+pip-wheel-metadata/
