@@ -1,0 +1,65 @@
+{
+  "class_names": [
+    "Healthy",
+    "Tumor"
+  ],
+  "folds": [
+    {
+      "accuracy": 0.9799641966819763,
+      "auc": 0.9971793293952942,
+      "loss": 0.0633641928434372,
+      "tumor_precision": 0.9750356674194336,
+      "tumor_recall": 0.9848703145980835,
+      "fold": 1,
+      "train_samples": 11174,
+      "validation_samples": 2795
+    },
+    {
+      "accuracy": 0.9724409580230713,
+      "auc": 0.9968432188034058,
+      "loss": 0.07057011127471924,
+      "tumor_precision": 0.9873605966567993,
+      "tumor_recall": 0.9567723274230957,
+      "fold": 2,
+      "train_samples": 11175,
+      "validation_samples": 2794
+    },
+    {
+      "accuracy": 0.9867573380470276,
+      "auc": 0.9979214072227478,
+      "loss": 0.04505643993616104,
+      "tumor_precision": 0.9891383051872253,
+      "tumor_recall": 0.9841498732566833,
+      "fold": 3,
+      "train_samples": 11175,
+      "validation_samples": 2794
+    },
+    {
+      "accuracy": 0.9781596660614014,
+      "auc": 0.9980101585388184,
+      "loss": 0.05536516010761261,
+      "tumor_precision": 0.9735714197158813,
+      "tumor_recall": 0.9826964735984802,
+      "fold": 4,
+      "train_samples": 11176,
+      "validation_samples": 2793
+    },
+    {
+      "accuracy": 0.9760114550590515,
+      "auc": 0.994868278503418,
+      "loss": 0.0780002772808075,
+      "tumor_precision": 0.9824561476707458,
+      "tumor_recall": 0.9689978361129761,
+      "fold": 5,
+      "train_samples": 11176,
+      "validation_samples": 2793
+    }
+  ],
+  "mean": {
+    "loss": 0.06247123628854752,
+    "accuracy": 0.9786667227745056,
+    "tumor_recall": 0.9754973649978638,
+    "tumor_precision": 0.9815124273300171,
+    "auc": 0.9969644784927368
+  }
+}
